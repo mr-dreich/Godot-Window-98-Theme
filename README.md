@@ -2,4 +2,6 @@
 
 A WIP windows 98 godot 4.x theme for application and game development.
 
-![Screenshot 2022-10-31 221550](https://user-images.githubusercontent.com/23221964/199164212-25beb773-9e3e-44c8-8cb9-2cf3478fa228.png)
+The screenshot was created using [ViolinBG's Godot Desktop Theme](https://github.com/violinbg/godot-desktop-themes)
+
+![Screenshot 2022-11-01 191326](https://user-images.githubusercontent.com/23221964/199379328-e2bb308c-dbd0-4be8-984d-24d618838e40.png)
