@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=94 format=3 uid="uid://dq36vara0cacl"]
+[gd_resource type="Theme" load_steps=97 format=3 uid="uid://dq36vara0cacl"]
 
 [ext_resource type="Texture2D" uid="uid://bfj2am2oarl4p" path="res://Themes/Windows98/textures/panel_container.png" id="1_0yj33"]
 [ext_resource type="FontFile" uid="uid://u7u0whcdvp8h" path="res://Themes/Windows98/font/microsoft_sans_serif.ttf" id="1_vei3r"]
@@ -35,6 +35,9 @@
 [ext_resource type="Texture2D" uid="uid://capksego2os30" path="res://Themes/Windows98/textures/tree_panel.png" id="25_acmsw"]
 [ext_resource type="Texture2D" uid="uid://4c7hfm07scym" path="res://Themes/Windows98/textures/tree_arrow.png" id="27_ft3xs"]
 [ext_resource type="Texture2D" uid="uid://cvgx5epiiot5l" path="res://Themes/Windows98/textures/tree_arrow_collapse.png" id="28_3ntyq"]
+[ext_resource type="Texture2D" uid="uid://c5tgj00dxq20l" path="res://Themes/Windows98/textures/window_close.png" id="36_fsj5q"]
+[ext_resource type="Texture2D" uid="uid://bc0uji5gtit4v" path="res://Themes/Windows98/textures/window.png" id="36_xy74y"]
+[ext_resource type="Texture2D" uid="uid://dc04vdado8l63" path="res://Themes/Windows98/textures/window_close_hover.png" id="37_0cd8l"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6akc0"]
 content_margin_left = 8.0
@@ -484,16 +487,17 @@ margin_bottom = 3.0
 region_rect = Rect2(0, 0, 4, 8)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ovoc8"]
-content_margin_left = 8.0
-content_margin_top = 8.0
-content_margin_right = 8.0
-content_margin_bottom = 8.0
-texture = ExtResource("20_0fbc1")
-margin_left = 3.0
-margin_top = 3.0
-margin_right = 3.0
-margin_bottom = 3.0
-region_rect = Rect2(0, 0, 16, 16)
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+texture = ExtResource("36_xy74y")
+margin_left = 6.0
+margin_top = 24.0
+margin_right = 6.0
+margin_bottom = 4.0
+expand_margin_top = 28.0
+region_rect = Rect2(0, 0, 480, 48)
 
 [resource]
 default_font = ExtResource("1_vei3r")
@@ -802,13 +806,13 @@ VSlider/styles/grabber_area_highlight = SubResource("StyleBoxTexture_xdh74")
 VSlider/styles/slider = SubResource("StyleBoxTexture_s7a7f")
 Window/colors/title_color = Color(0, 0, 0, 1)
 Window/colors/title_outline_modulate = Color(0, 0, 0, 1)
-Window/constants/close_h_offset = 0
-Window/constants/close_v_offset = 0
-Window/constants/resize_margin = 2
-Window/constants/title_height = 0
+Window/constants/close_h_offset = 22
+Window/constants/close_v_offset = 22
+Window/constants/resize_margin = 4
+Window/constants/title_height = 28
 Window/constants/title_outline_size = 0
 Window/font_sizes/title_font_size = 11
 Window/fonts/title_font = ExtResource("1_vei3r")
-Window/icons/close = null
-Window/icons/close_pressed = null
+Window/icons/close = ExtResource("36_fsj5q")
+Window/icons/close_pressed = ExtResource("37_0cd8l")
 Window/styles/embedded_border = SubResource("StyleBoxTexture_ovoc8")
